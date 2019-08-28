@@ -11,14 +11,12 @@ package segurodevida;
  */
 public class FrameOut extends javax.swing.JFrame {
     
-    String mostrar;
+    
     /**
      * Creates new form FrameOut
      */
     public FrameOut(String mostrar) {
         initComponents();
-        this.mostrar=mostrar;
-        TXTF1.setText(mostrar);
     }
 
     /**
@@ -30,30 +28,17 @@ public class FrameOut extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jScrollPane1 = new javax.swing.JScrollPane();
-        TXTF1 = new javax.swing.JTextArea();
-
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-
-        TXTF1.setColumns(20);
-        TXTF1.setRows(5);
-        jScrollPane1.setViewportView(TXTF1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(46, 46, 46)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 231, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(43, Short.MAX_VALUE))
+            .addGap(0, 569, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 67, Short.MAX_VALUE)
-                .addContainerGap())
+            .addGap(0, 451, Short.MAX_VALUE)
         );
 
         pack();
@@ -95,7 +80,5 @@ public class FrameOut extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextArea TXTF1;
-    private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
 }
